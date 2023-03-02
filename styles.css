@@ -5,6 +5,7 @@
 header {
     background-color: #D70021;
     display: flex;
+    justify-content: space-between;
 }
 
 header ul {
