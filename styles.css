@@ -1,0 +1,16 @@
+* {
+    list-style: none;
+}
+
+header {
+    background-color: #D70021;
+    display: flex;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    color: white;
+}
