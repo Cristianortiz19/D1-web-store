@@ -5,8 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  | <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
     <title>D1 WEB</title>
   </head>
+
   <body>
     <header>
       <a href="#">
@@ -27,30 +31,53 @@
         <div class="itemCarrusel"></div>
       </section>
     </main>
-    <script src="script.js"></script>
-  </body>
 
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <h3 class="footerh3">Acerca de nosotros</h3>
-          <p>En TIENDAS D1 sabemos que mediante la Innovación de los artículos de nuestras tiendas está la clave de la diferenciación y de esta forma entendemos las necesidades de nuestros clientes, por tal motivo desde el inicio de la concepción de los productos y hasta sus últimos detalles se cuenta con la percepción y aval del mismo consumidor, información que forma parte de las decisiones estratégicas para los movimientos permanentes de las diferentes categorías, así es como recurrimos a  pruebas sensoriales y de  desempeño de los productos en las regiones del territorio nacional,  para  garantizar nuestra promesa de valor “CALIDAD ALTA A PRECIOS MUY BAJOS”.</p>
-        </div>
-        <div class="col-md-4">
-          <h3>Contactanos</h3>
-          <p>Línea de atención: 01 8000 120201</p>
-        </div>
-        <div class="col-md-4">
-          <h3>Síguenos</h3>
-          <ul class="social-icons">
-            <li><a href="#"><i class="fa fa-facebook"></i> <img src="" alt=""> </a></li>
-            <li><a href="#"><i class="fa fa-twitter"> <img src="" alt=""> </i></a></li>
-            <li><a href="#"><i class="fa fa-instagram"> <img src="" alt=""> </i></a></li>
-          </ul>
+    <section class="products">
+      <div class="container">
+        <h2>Producto Destacado</h2>
+        <div class="product-items">
+          <div class="product-item">
+            <img src="https://sanninebakery.com/wp-content/uploads/2020/09/m-bread.png" alt="Product 1">
+            <h3>Producto 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button id="cartButton">Añadir al carrito</button>
+          </div>
+          <div class="product-item">
+            <img src="" alt="Product 2">
+            <h3>Producto 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button id="cartButton">Añadir al carrito</button>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </section>
+
+    <script src="script.js"></script>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h3 class="footerh3">Acerca de nosotros</h3>
+            <button id="myButton">Historia</button>
+            <button id="myButton">Calidad D1</button>
+            <button id="myButton">Políticas</button>
+          </div>
+          <div class="footerdiv">
+            <h3>Contactanos</h3>
+            <p>Línea de atención: 01 8000 120201</p>
+          </div>
+          <div class="col-md-4">
+            <h3>Síguenos</h3>
+            <ul class="social-icons">
+              <li><a href="#"><i class="fa fa-facebook"></i> <img src="" alt=""> </a></li>
+              <li><a href="#"><i class="fa fa-twitter"> <img src="" alt=""> </i></a></li>
+              <li><a href="#"><i class="fa fa-instagram"> <img src="" alt=""> </i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <p> © 2023 Tiendas D1 | Todos los derechos reservados a Bal y Cris</p>
+    </footer>
+  </body>
 
 </html>
