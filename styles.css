@@ -17,6 +17,11 @@ header ul li {
     color: white;
 }
 
+.bigText {
+  font-size: 25px;
+  color:#D70021;
+}
+
 #cartButton {
     background-color: #ec1313;
     color: white;
