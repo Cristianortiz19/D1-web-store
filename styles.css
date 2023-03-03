@@ -17,9 +17,37 @@ header ul li {
     color: white;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-direction: row;
+  
+}
+
 .bigText {
   font-size: 25px;
   color:#D70021;
+}
+
+.img1 {
+  height: 250px;
+  width: 200px;
+}
+
+#productButton {
+  height: 200px;
+  width: 300px;
+  background-color: #ec1313;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+
+#productButton:hover {
+  background-color: #e46666;
 }
 
 #cartButton {
@@ -42,11 +70,7 @@ footer {
     padding: 50px 0;
   }
   
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    flex-direction: column;
-  }
+  
 
   .footerdiv{
     flex-direction: column;
