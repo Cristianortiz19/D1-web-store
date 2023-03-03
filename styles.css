@@ -15,3 +15,38 @@ header ul {
 header ul li {
     color: white;
 }
+
+footer {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footerh3 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-icons li a {
+    color: #333;
+    font-size: 20px;
+  }
+  
+  .social-icons li a:hover {
+    color: #c0392b;
+  }
+  
