@@ -20,6 +20,8 @@ header ul li {
 .featured-container {
   display: flex;
   justify-content: center;
+  border-radius: 5px;
+
 }
 
 .featured-product {
@@ -28,6 +30,7 @@ header ul li {
   margin: 50px 0;
   background-color: #f9f9f9;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
 }
 
 .featured-image {
@@ -37,6 +40,7 @@ header ul li {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 5px;
 }
 
 .featured-image img {
@@ -68,7 +72,7 @@ header ul li {
 .featured-button {
   font-size: 18px;
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color: #ec1313;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -76,7 +80,7 @@ header ul li {
 }
 
 .featured-button:hover {
-  background-color: #0069d9;
+  background-color: #e46666;
 }
 
 .container {
@@ -128,7 +132,7 @@ header ul li {
   font-size: 18px;
   padding: 10px 20px;
   margin-top: 10px;
-  background-color: #007bff;
+  background-color: #ec1313;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -136,7 +140,7 @@ header ul li {
 }
 
 .product-button:hover {
-  background-color: #0069d9;
+  background-color: #e46666;
 }
 
 
