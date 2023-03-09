@@ -50,6 +50,34 @@ header ul li a:hover {
   background: linear-gradient(180deg, rgba(0,169,255,1) 0%, rgba(0,101,220,1) 100%);
 }
 
+#cleaning {
+  margin-top: 50px;
+}
+
+#cleaning h2 {
+  color: #D70021;
+  font-weight: 800;
+  margin-left: 20px;
+}
+
+#cleaning div ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding: 10px;
+}
+
+#cleaning div ul li {
+   background-color: #D70021;
+   color: white;
+   font-size: 18px;
+   
+   padding: 60px 0px;
+   margin: 10px;
+   text-align: center;
+   border-radius: 15px;
+}
+
+
 .featured-container {
   display: flex;
   justify-content: center;
