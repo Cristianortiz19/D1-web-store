@@ -64,6 +64,13 @@ main {
   margin-left: 20px;
 }
 
+#promo-section h2 {
+  color: #D70021;
+  font-weight: 800;
+  margin-left: 20px;
+}
+
+
 #cleaning div ul{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
