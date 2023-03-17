@@ -30,6 +30,21 @@ header ul li a:hover {
   transition: 0.5s;
 }
 
+#header-mobile {
+  display: none;
+}
+
+.mobile-nav {
+  display: flex;
+  margin-right: 20px;
+}
+
+#menu img{
+  height: 20px;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
 #logo {
   padding: 8px 8px 8px 0px;
   margin:0;
@@ -155,9 +170,13 @@ main {
 .promo-carousel {
   display: flex;
   align-items: center;
-  height: 600px;
+  height: 100%;
   background-color: rgb(226, 226, 226);
   background: linear-gradient(205deg, rgba(255,139,168,1) 0%, rgba(222,29,17,1) 62%);
+}
+
+.promo-carousel img {
+  bottom: 80px;
 }
 
 .promo-carousel h1 {
@@ -480,10 +499,9 @@ main {
     background-color: #e46666;
   }
   
-  .promo-section{
+  #promo-section{
     padding-top: 50px;
     padding-bottom: 50px;
-    
   }
 
   .promo-container{
@@ -497,15 +515,49 @@ main {
     
   }
 
-  .promo-container div{
+  .promo-heart{
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 36px;
+  }
+
+
+  .promo-product{
     background-color: #ec1313;
     color: white;
     font-size: 18px;
     min-width: 200px;
-    height: 100px;
-    text-align: center;
+    width: 200px;
+    height: 200px;
+    text-align: right;
+    padding-right: 5px;
     vertical-align: middle;
-    border-radius: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 5px solid #ec1313;
+  }
+
+  /* products */
+  .promo-container div:nth-child(1) div.promo-product{
+    background-image: url('./src/A.jpg');
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+  }
+  .promo-container div:nth-child(2) div.promo-product{
+    background-image: url('./src/b.jpg');
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+  }
+  .promo-container div:nth-child(3) div.promo-product{
+    background-image: url('./src/c.jpg');
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+  }
+  .promo-container div:nth-child(4) div.promo-product{
+    background-image: url('./src/d.jpg');
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
   }
   
   .news-section {
@@ -570,11 +622,26 @@ main {
       align-items: center;
       margin-bottom: 50px;
     }
+    .month-product-carousel-data p {
+      display: none;
+    }
+    .month-product-carousel-data h1 {
+      font-size: 30px;
+    }
+    .month-product-carousel-data h2 {
+      font-size: 20px;
+    }
     #cleaning div ul {
       grid-template-columns: 1fr;
     }
+    #cleaning div ul li {
+      padding: 20px 20px;
+    }
     .news {
       grid-template-columns: 1fr;
+    }
+    #header-mobile {
+      display: flex;
     }
   }
 
@@ -594,6 +661,20 @@ main {
     }
     #cleaning div ul {
       grid-template-columns: 1fr 1fr;
+    }
+    #cleaning div ul li {
+      padding: 50px 20px;
+    }
+    .promo-carousel img {
+      height: 400px;
+    }
+    .promo-carousel {
+      flex-direction: column;
+    }
+    .promo-carousel div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
     .news {
       grid-template-columns: 1fr 1fr;

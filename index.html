@@ -17,7 +17,7 @@
   </head>
 
   <body>
-    <header class="fixed-top">
+    <header class="fixed-top" id="header-desktop">
       <a href="#">
         <figure id="logo">
           <img src="src/d1-logo.png" alt="">
@@ -30,6 +30,19 @@
         <li><a href="">Promos</a></li>
       </ul>
       <a href=""><img src="src/shopping-cart.svg" alt="" id="shopping-cart"></a>
+    </header>
+
+    <header class="fixed-top" id="header-mobile">
+      <a href="#">
+        <figure id="logo">
+          <img src="src/d1-logo.png" alt="">
+        </figure>
+      </a>
+      <nav class="mobile-nav">
+        <a href=""><img src="src/shopping-cart.svg" alt="" id="shopping-cart"></a>
+        <a href="#" id="menu"><img src="https://cdn-icons-png.flaticon.com/512/55/55003.png" alt=""></a>
+      </nav>
+      
     </header>
     <main>
       <section id="month-product">
@@ -268,6 +281,32 @@
     </section>
 
     
+    <section id="promo-section">
+      <h2> Lo mejor de D1</h2>
+      <div class="promo-container">
+        <div>
+          <div class="promo-product"><img src="./src/heartIcon.svg" class="promo-heart"/></div><!-- TODO: agregar imagen -->
+          <div>Jabón Little Angels</div>
+          <div>$20.000</div>
+        </div>
+        <div>
+          <div class="promo-product"><img src="./src/heartIcon.svg" class="promo-heart"/></div><!-- TODO: agregar imagen -->
+          <div>Pañales Little Angels</div>
+          <div>$8.000</div>
+        </div>
+        <div>
+          <div class="promo-product"><img src="./src/heartIcon.svg" class="promo-heart"/></div><!-- TODO: agregar imagen -->
+          <div>Crema Bebé Little Angels</div>
+          <div>$11.800</div>
+        </div>
+        <div>
+          <div class="promo-product"><img src="./src/heartIcon.svg" class="promo-heart"/></div><!-- TODO: agregar imagen -->
+          <div>Latti Leche Semidescremada</div>
+          <div>$3.200</div>
+        </div>
+      </div>
+    </section>
+
 
     <section class="news-section">
       <h1>Noticias</h1>
@@ -327,21 +366,7 @@
       </div>
     </section>
 
-    <section id="promo-section">
-      <h2> Promociones por categoría</h2>
-      <div class="promo-container">
-        <div>Alimentos y despensa</div>
-        <div>Aseo hogar</div>
-        <div>Aseo personal</div>
-        <div>Bebé</div>
-        <div>Bebidas</div>
-        <div>Congelados</div>
-        <div>Lácteos</div>
-        <div>Mascotas</div>
-        <div>Extraordinarios</div>
-        <div>Otros</div>
-      </div>
-    </section>
+    
     
   </main>
   
