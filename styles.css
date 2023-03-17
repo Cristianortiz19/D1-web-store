@@ -102,6 +102,12 @@ main {
    margin: 10px;
    text-align: center;
    border-radius: 15px;
+   transition: 0.5s;
+}
+
+#cleaning div ul li:hover {
+  background-color: #770012;
+  font-weight: 600;
 }
 
 .month-product-carousel {
@@ -175,8 +181,8 @@ main {
   background: linear-gradient(205deg, rgba(255,139,168,1) 0%, rgba(222,29,17,1) 62%);
 }
 
-.promo-carousel img {
-  bottom: 80px;
+.promo-carousel div {
+  padding: 60px 20px;
 }
 
 .promo-carousel h1 {
@@ -540,26 +546,35 @@ main {
 
   /* products */
   .promo-container div:nth-child(1) div.promo-product{
-    background-image: url('./src/A.jpg');
+    background-image: url('./src/Uno.jpg');
     background-size: 200px 200px;
     background-repeat: no-repeat;
   }
   .promo-container div:nth-child(2) div.promo-product{
-    background-image: url('./src/b.jpg');
+    background-image: url('./src/Dos.jpg');
     background-size: 200px 200px;
     background-repeat: no-repeat;
   }
   .promo-container div:nth-child(3) div.promo-product{
-    background-image: url('./src/c.jpg');
+    background-image: url('./src/Tres.jpg');
     background-size: 200px 200px;
     background-repeat: no-repeat;
   }
   .promo-container div:nth-child(4) div.promo-product{
-    background-image: url('./src/d.jpg');
+    background-image: url('./src/Cuatro.jpg');
     background-size: 200px 200px;
     background-repeat: no-repeat;
   }
-  
+  .promo-container div:nth-child(5) div.promo-product{
+    background-image: url('./src/Cinco.jpg');
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+  }
+  .promo-container div:nth-child(6) div.promo-product{
+    background-image: url('./src/Seis.jpg');
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+  }
   .news-section {
     background: linear-gradient(180deg, rgba(208,20,20,1) 0%, rgba(57,5,6,1) 100%);
     padding: 60px 30px;
@@ -636,6 +651,26 @@ main {
     }
     #cleaning div ul li {
       padding: 20px 20px;
+    }
+    .promo-carousel img {
+      height: 300px;
+    }
+    .promo-carousel {
+      flex-direction: column;
+    }
+    .promo-carousel div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .promo-carousel div p {
+      display: none;
+    }
+    .promo-carousel div h1 {
+      font-size: 30px;
+    }
+    .promo-carousel div h2 {
+      font-size: 20px;
     }
     .news {
       grid-template-columns: 1fr;
