@@ -92,7 +92,7 @@ main {
 .month-product-carousel {
   display: flex;
   align-items: center;
-  height: 600px;
+  height: 100%;
   background-color: rgb(226, 226, 226);
   background: linear-gradient(180deg, rgba(0,169,255,1) 0%, rgba(0,101,220,1) 100%);
   
@@ -552,4 +552,59 @@ main {
   }
   .date *{
     padding: 5px;
+  }
+
+
+  @media (max-width: 768px)  {
+
+    .month-product-carousel {
+      flex-direction: column;
+    }
+    .month-product-carousel img {
+      height: 300px;
+      padding-top: 30px;
+    }
+    .month-product-carousel-data {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 50px;
+    }
+    #cleaning div ul {
+      grid-template-columns: 1fr;
+    }
+    .news {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 992px) {
+    .month-product-carousel {
+      flex-direction: column;
+    }
+    .month-product-carousel img {
+      height: 600px;
+      padding-top: 30px;
+    }
+    .month-product-carousel-data {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 50px;
+    }
+    #cleaning div ul {
+      grid-template-columns: 1fr 1fr;
+    }
+    .news {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .news {
+      grid-template-columns: 1fr 1fr;
+    }
+    #cleaning div ul {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
   }
