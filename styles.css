@@ -68,8 +68,9 @@ main {
   color: #D70021;
   font-weight: 800;
   margin-left: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
-
 
 #cleaning div ul{
   display: grid;
@@ -482,6 +483,7 @@ main {
   .promo-section{
     padding-top: 50px;
     padding-bottom: 50px;
+    
   }
 
   .promo-container{
@@ -492,6 +494,7 @@ main {
     display: flex;
     padding-bottom: 10px;
     padding-left: 10px;
+    
   }
 
   .promo-container div{
