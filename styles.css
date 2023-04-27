@@ -30,6 +30,21 @@ header ul li a:hover {
   transition: 0.5s;
 }
 
+#header-mobile {
+  display: none;
+}
+
+.mobile-nav {
+  display: flex;
+  margin-right: 20px;
+}
+
+#menu img{
+  height: 20px;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
 #logo {
   padding: 8px 8px 8px 0px;
   margin:0;
@@ -64,6 +79,14 @@ main {
   margin-left: 20px;
 }
 
+#promo-section h2 {
+  color: #D70021;
+  font-weight: 800;
+  margin-left: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 #cleaning div ul{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -72,6 +95,7 @@ main {
 
 #cleaning div ul li {
    background-color: #D70021;
+   background-blend-mode: multiply;
    color: white;
    font-size: 18px;
 
@@ -79,64 +103,91 @@ main {
    margin: 10px;
    text-align: center;
    border-radius: 15px;
+   transition: 0.5s;
 }
 
-.month-product-carousel-1 {
+#cleaning div ul li:hover {
+  background-color: #770012;
+  background-blend-mode: normal;
+  content-visibility: hidden;
+  font-weight: 600;
+}
+
+.month-product-carousel {
   display: flex;
   align-items: center;
-  height: 600px;
+  height: 100%;
   background-color: rgb(226, 226, 226);
   background: linear-gradient(180deg, rgba(0,169,255,1) 0%, rgba(0,101,220,1) 100%);
   
 }
 
-.month-product-carousel-1 img {
+.month-product-carousel img {
   height: 800px;
   padding-top: 190px;
 }
 
-.month-product-carousel-1 h1 {
+.month-product-carousel h1 {
   color: white;
   font-family: 'Montserrat', sans-serif;
   font-weight:900;
   font-size: 50px;
 }
 
-.month-product-carousel-1 h2 {
+.month-product-carousel h2 {
   color: pink;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 30px;
 }
 
-.month-product-carousel-1 p {
+.month-product-carousel p {
   color: white;
   width: 70%;
 }
 
-.carousel-buttons button {
-  background-color: white;
-  color: rgba(0,101,220,1);
-  font-weight: 600;
-  padding: 7px 20px;
-  border: none;
-  margin-right: 10px;
-  border-radius: 5px;
+#carousel-2 {
+  background: linear-gradient(180deg, rgba(171,0,255,1) 0%, rgba(101,0,223,1) 100%);
 }
 
-.promo-carousel button{
-  color: #ec1313;
+#carousel-3 {
+  background: linear-gradient(180deg, rgba(55,142,252,1) 0%, rgba(0,33,161,1) 100%);
 }
+
+#carousel-3 img {
+  height: 650px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.carousel-buttons button {
+  background-color: transparent;
+  color: white;
+  font-weight: 400;
+  padding: 7px 20px;
+  border: 3px solid white;
+  margin-right: 10px;
+  border-radius: 30px;
+}
+
+.carousel-buttons button:hover {
+  background-color: white;
+  color: #101010;
+}
+
 
 .promo-carousel {
   display: flex;
   align-items: center;
-  height: 600px;
+  height: 100%;
   background-color: rgb(226, 226, 226);
   background: linear-gradient(205deg, rgba(255,139,168,1) 0%, rgba(222,29,17,1) 62%);
 }
 
-/* sdfsdfsdf */
+.promo-carousel div {
+  padding: 60px 20px;
+}
+
 .promo-carousel h1 {
   color: white;
   font-family: 'Montserrat', sans-serif;
@@ -230,6 +281,8 @@ main {
   
 }
 
+
+
 .bigText {
   font-size: 25px;
   color:#D70021;
@@ -246,12 +299,12 @@ main {
   white-space: nowrap;
 }
 
-.product-container::-webkit-scrollbar{
+*::-webkit-scrollbar{
   border: 0px ;
   height: 9px;
 }
 
-.product-container::-webkit-scrollbar-thumb{
+*::-webkit-scrollbar-thumb{
   background-color: #9c9c9c;
   border-radius: 10px;
   height: 9px;
@@ -455,3 +508,222 @@ main {
     background-color: #e46666;
   }
   
+  #promo-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .promo-container{
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    gap: 10px;
+    display: flex;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    
+  }
+
+  .promo-heart{
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 36px;
+  }
+
+
+  .promo-product{
+    background-color: #ec1313;
+    color: white;
+    font-size: 18px;
+    min-width: 200px;
+    width: 200px;
+    height: 200px;
+    text-align: right;
+    padding-right: 5px;
+    vertical-align: middle;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 5px solid #ec1313;
+  }
+
+  /* products */
+  .promo-container div:nth-child(1) div.promo-product{
+    background-image: url('./src/Uno.jpg');
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+  }
+  .promo-container div:nth-child(2) div.promo-product{
+    background-image: url('./src/Dos.jpg');
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+  }
+  .promo-container div:nth-child(3) div.promo-product{
+    background-image: url('./src/Tres.jpg');
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+  }
+  .promo-container div:nth-child(4) div.promo-product{
+    background-image: url('./src/Cuatro.jpg');
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+  }
+  .promo-container div:nth-child(5) div.promo-product{
+    background-image: url('./src/Cinco.jpg');
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+  }
+  .promo-container div:nth-child(6) div.promo-product{
+    background-image: url('./src/Seis.jpg');
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+  }
+  .news-section {
+    background: linear-gradient(180deg, rgba(208,20,20,1) 0%, rgba(57,5,6,1) 100%);
+    padding: 60px 30px;
+  }
+
+  .news-section h1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+  }
+
+  .news {
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .news article {
+    background: white;
+    margin:10px;
+    padding: 30px;
+    border-radius: 15px;
+  }
+
+  .news article h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ec1313;
+    font-size: 27px;
+    font-weight: 600;
+  }
+
+  .news article a {
+    color: #ec1313;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .date {
+    display: flex;
+    
+  }
+  .date *{
+    padding: 5px;
+  }
+
+
+  @media (max-width: 768px)  {
+
+    .month-product-carousel {
+      flex-direction: column;
+    }
+    .month-product-carousel img {
+      height: 300px;
+      padding-top: 30px;
+    }
+    .month-product-carousel-data {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 50px;
+    }
+    .month-product-carousel-data p {
+      display: none;
+    }
+    .month-product-carousel-data h1 {
+      font-size: 30px;
+    }
+    .month-product-carousel-data h2 {
+      font-size: 20px;
+    }
+    #cleaning div ul {
+      grid-template-columns: 1fr;
+    }
+    #cleaning div ul li {
+      padding: 20px 20px;
+    }
+    .promo-carousel img {
+      height: 300px;
+    }
+    .promo-carousel {
+      flex-direction: column;
+    }
+    .promo-carousel div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .promo-carousel div p {
+      display: none;
+    }
+    .promo-carousel div h1 {
+      font-size: 30px;
+    }
+    .promo-carousel div h2 {
+      font-size: 20px;
+    }
+    .news {
+      grid-template-columns: 1fr;
+    }
+    #header-mobile {
+      display: flex;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 992px) {
+    .month-product-carousel {
+      flex-direction: column;
+    }
+    .month-product-carousel img {
+      height: 600px;
+      padding-top: 30px;
+    }
+    .month-product-carousel-data {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 50px;
+    }
+    #cleaning div ul {
+      grid-template-columns: 1fr 1fr;
+    }
+    #cleaning div ul li {
+      padding: 50px 20px;
+    }
+    .promo-carousel img {
+      height: 400px;
+    }
+    .promo-carousel {
+      flex-direction: column;
+    }
+    .promo-carousel div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .news {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .news {
+      grid-template-columns: 1fr 1fr;
+    }
+    #cleaning div ul {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }

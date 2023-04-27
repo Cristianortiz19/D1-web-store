@@ -17,7 +17,7 @@
   </head>
 
   <body>
-    <header class="fixed-top">
+    <header class="fixed-top" id="header-desktop">
       <a href="#">
         <figure id="logo">
           <img src="src/d1-logo.png" alt="">
@@ -31,6 +31,19 @@
       </ul>
       <a href=""><img src="src/shopping-cart.svg" alt="" id="shopping-cart"></a>
     </header>
+
+    <header class="fixed-top" id="header-mobile">
+      <a href="#">
+        <figure id="logo">
+          <img src="src/d1-logo.png" alt="">
+        </figure>
+      </a>
+      <nav class="mobile-nav">
+        <a href=""><img src="src/shopping-cart.svg" alt="" id="shopping-cart"></a>
+        <a href="#" id="menu"><img src="https://cdn-icons-png.flaticon.com/512/55/55003.png" alt=""></a>
+      </nav>
+      
+    </header>
     <main>
       <section id="month-product">
         <div id="carouselExampleIndicators" class="carousel slide">
@@ -41,9 +54,9 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <div class="month-product-carousel-1">
+              <div class="month-product-carousel">
                 <img src="src/suavitel-banner.png" alt="">
-                <div>
+                <div class="month-product-carousel-data">
                   <h1>Producto del mes</h1>
                   <h2>Suavitel</h2>
                   <p>Ya sea que estés lavando tu ropa en casa o en la lavandería, 
@@ -59,15 +72,15 @@
               </div>
             </div>
             <div class="carousel-item">
-              <div class="month-product-carousel-1">
-                <div>
-                  <h1>Producto del mes</h1>
-                  <h2>Suavitel</h2>
-                  <p>Ya sea que estés lavando tu ropa en casa o en la lavandería, 
-                    el suavizante de telas Suavitel es la elección perfecta para 
-                    un cuidado de la ropa eficaz y de calidad. Pruébalo hoy mismo 
-                    y descubre por qué millones de personas en todo el mundo 
-                    confían en Suavitel para el cuidado de su ropa.</p>
+              <div class="month-product-carousel" id="carousel-2">
+                <img src="./src/Frame 6.png" alt="">
+                <div class="month-product-carousel-data">
+                  <h1>Limpia tu hogar</h1>
+                  <h2>Limpiador fabuloso</h2>
+                  <p>El limpiador Fabuloso es el producto que necesitas para transformar 
+                    tu hogar en un espacio impecable. Con su poderosa fórmula, Fabuloso 
+                    elimina la suciedad y la grasa más difícil en cualquier superficie, 
+                    desde pisos hasta cocinas y baños.</p>
                   <div class="carousel-buttons">
                     <button>Agregar al carrito</button>
                     <button>+ Info</button>
@@ -76,15 +89,15 @@
               </div>
             </div>
             <div class="carousel-item">
-              <div class="month-product-carousel-1">
-                <div>
-                  <h1>Producto del mes</h1>
-                  <h2>Suavitel</h2>
-                  <p>Ya sea que estés lavando tu ropa en casa o en la lavandería, 
-                    el suavizante de telas Suavitel es la elección perfecta para 
-                    un cuidado de la ropa eficaz y de calidad. Pruébalo hoy mismo 
-                    y descubre por qué millones de personas en todo el mundo 
-                    confían en Suavitel para el cuidado de su ropa.</p>
+              <div class="month-product-carousel" id="carousel-3">
+                <img src="./src/Frame 7.png" alt="">
+                <div class="month-product-carousel-data">
+                  <h1>Cuida tu piel</h1>
+                  <h2>Dove</h2>
+                  <p>Los jabones Dove están formulados con 1/4 de crema humectante para 
+                    ayudar a proteger la barrera natural de tu piel y mantenerla hidratada. 
+                    Además, están disponibles en una variedad de fragancias delicadas y 
+                    refrescantes que dejarán tu piel con una sensación fresca y limpia.</p>
                   <div class="carousel-buttons">
                     <button>Agregar al carrito</button>
                     <button>+ Info</button>
@@ -106,18 +119,18 @@
       
       <section id="cleaning">
         <h2>¡Mantén limpio tu hogar!</h2>
-        <div>
+        <div class="cleaning">
           <ul>
-            <li>Fabuloso</li>
-            <li>Fabuloso</li>
-            <li>Fabuloso</li>
-            <li>Fabuloso</li>
-            <li>Fabuloso</li>
-            <li>Fabuloso</li>
-            <li>Fabuloso</li>
-            <li>Fabuloso</li>
-            <li>Fabuloso</li>
-            <li>Fabuloso</li>
+            <li id="1" style="background-image: url(https://www.telemundo.com/sites/nbcutelemundo/files/images/mpx/2023/02/09/28130082532-1080pnbcstations.jpg); background-size: cover;">Fabuloso</li>
+            <li id="2" style="background-image: url(https://jumbocolombiaio.vtexassets.com/arquivos/ids/209072/7702166006119-1.jpg?v=637814209628170000); background-size: cover;">Jabón Rey</li>
+            <li id="3" style="background-image: url(https://www.tuhogar.com/content/dam/cp-sites/home-care/tu-hogar/es_mx/plp/banner-PLP-axion-limon-mx.jpg); background-size: cover;">Jabón Axion</li>
+            <li id="4" style="background-image: url(https://d1cft8rz0k7w99.cloudfront.net/n/7/5/3/c/753c41fa34a5f6be90ac4586cd45ee253e5ff59e_CleaningSupplies_294131_01.jpg); background-size: cover;">Mr. Músculo</li>
+            <li id="5" style="background-image: url(https://www.portafolio.co/files/article_main/uploads/2016/02/06/56b6575a413bc.jpeg); background-size: cover;">Fab</li>
+            <li id="6" style="background-image: url(http://muchosnegociosrentables.com/wp-content/uploads/2016/07/papel-higienico-venta.jpg); background-size: cover;">Familia</li>
+            <li id="7" style="background-image: url(https://www.clorox.com/wp-content/uploads/2022/09/CleaningBundle-Mobile-375x280@2x.png?width=768); background-size: cover;">Clorox</li>
+            <li id="8" style="background-image: url(https://st3.depositphotos.com/1063437/13963/i/600/depositphotos_139637838-stock-photo-containers-of-vanish-stain-remover.jpg); background-size: cover;">Vanish</li>
+            <li id="5" style="background-image: url(https://www2.glade.com/~/media/glade/fragrances/collections/2020/banner.png?la=es-ar&hash=FDF1CCD100353AA06FA406D42E25E6EC); background-size: cover;">Glade</li>
+            <li id="6" style="background-image: url(https://assets.turbologo.com/blog/es/2021/07/16055350/Colgate_shutterstock_monticello.jpg); background-size: cover;">Colgate</li>
           </ul>
         </div>
       </section>
@@ -140,7 +153,7 @@
             </div>
             <div class="carousel-item" data-bs-interval="2000">
               <div class="promo-carousel">
-                <img src="./src/Frame 3.png" alt="">
+                <img src="./src/Frame 3.png" alt="ola">
                 <div>
                   <h1>Trasnochón de verduras</h1>
                   <h2>Jueves 30 de febrero de 6:00 p.m. a 3:00 a.m.</h2>
@@ -221,7 +234,7 @@
             <button class="product-button">Añadir al carrito</button>
           </div>
           <div class="product">
-            <img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c21f.png" alt="Product">
+            <img src="https://www.pngmart.com/files/16/Onion-PNG-Image.png" alt="Product">
             <h3 class="product-title">Libra de cebolla cabezona</h3>
             <p class="product-price">$6.100</p>
             <button class="product-button">Añadir al carrito</button>
@@ -267,6 +280,104 @@
         </div>
     </section>
 
+    
+    <section id="promo-section">
+      <h2> Lo mejor de D1</h2>
+      <div class="promo-container">
+        <div>
+          <div class="promo-product"><img src="./src/heartIcon.svg" class="promo-heart"/></div><!-- TODO: agregar imagen -->
+          <div>Biscolatta</div>
+          <div>$20.000</div>
+        </div>
+        <div>
+          <div class="promo-product"><img src="./src/heartIcon.svg" class="promo-heart"/></div><!-- TODO: agregar imagen -->
+          <div>Pañales Little Angels</div>
+          <div>$8.000</div>
+        </div>
+        <div>
+          <div class="promo-product"><img src="./src/heartIcon.svg" class="promo-heart"/></div><!-- TODO: agregar imagen -->
+          <div>Shampoo Little Angels</div>
+          <div>$11.800</div>
+        </div>
+        <div>
+          <div class="promo-product"><img src="./src/heartIcon.svg" class="promo-heart"/></div><!-- TODO: agregar imagen -->
+          <div>Fiorella Galletas</div>
+          <div>$3.200</div>
+        </div>
+        <div>
+          <div class="promo-product"><img src="./src/heartIcon.svg" class="promo-heart"/></div><!-- TODO: agregar imagen -->
+          <div>Dulces KEO</div>
+          <div>$4.600</div>
+        </div>
+        <div>
+          <div class="promo-product"><img src="./src/heartIcon.svg" class="promo-heart"/></div><!-- TODO: agregar imagen -->
+          <div>Crema Delia Cosmetics</div>
+          <div>$38.200</div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="news-section">
+      <h1>Noticias</h1>
+      <div class="news">
+        <article class="new-component">
+          <div>
+            <h2>Inauguramos la tienda 2.000 de D1 y proyectamos abrir más de 100 durante este año</h2>
+            <p>Recientemente se conoció que supermercados D1 se convirtió en la principal cadena de ventas al detal en Colombia, luego de registrar ingresos operacionales superiores a $10,9 billones en 2021, lo que representó un crecimiento de 32% con respecto a las ventas de 2020.
+            </p>
+            <a href="https://d1.com.co/273242-2/">Leer más</a>
+            <hr>
+            <div class="date">
+              <p>Junio 24, 2022</p>
+              <a href="#">No hay comentarios</a>
+            </div>
+          </div>
+        </article>
+        <article class="new-component">
+          <div>
+            <h2>Los aportes en sostenibilidad de la compañía con más puntos de venta en Colombia</h2>
+            <p>D1 es la compañía con más puntos de venta en Colombia, alcanzando 2.000 tiendas a nivel nacional. Esto significa que está más cerca de los hogares colombianos al cubrir el 87% del territorio y llegar a 28 departamentos y 451 municipios.
+            </p>
+            <a href="https://d1.com.co/los-aportes-en-sostenibilidad-de-la-compania-con-mas-puntos-de-venta-en-colombia/">Leer más</a>
+            <hr>
+            <div class="date">
+              <p>Octubre 27, 2022</p>
+              <a href="#">No hay comentarios</a>
+            </div>
+          </div>
+        </article>
+        <article class="new-component">
+          <div>
+            <h2>Un año marcado por grandes movidas y nuevos jugadores tras la reactivación</h2>
+            <p>Los impulsos de reactivación económica tras la pandemia conllevaron reajustes en los sectores del comercio, minería y construcción
+            </p>
+            <a href="https://www.larepublica.co/especiales/las-100-mas-grandes/un-ano-marcado-por-grandes-movidas-y-nuevos-jugadores-tras-la-reactivacion-3389660">Leer más</a>
+            <hr>
+            <div class="date">
+              <p>Febrero 14, 2023</p>
+              <a href="#">No hay comentarios</a>
+            </div>
+          </div>
+        </article>
+        <article class="new-component">
+          <div>
+            <h2>¿Cuál es el secreto detrás del éxito de las tiendas de descuento duro?</h2>
+            <p>Fernando González, presidente de Tiendas D1, habla en Dinero de la expansión de su compañía luego de la apertura de la tienda 1.500 y sobre cómo les ha ido en la pandemia.
+            </p>
+            <a href="https://www.semana.com/empresas/multimedia/cual-es-el-secreto-detras-del-exito-de-las-tiendas-de-descuento-duro/305387/">Leer más</a>
+            <hr>
+            <div class="date">
+              <p>Marzo 19, 2023</p>
+              <a href="#">No hay comentarios</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    
+    
   </main>
   
     <footer>
