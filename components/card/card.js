@@ -23,7 +23,6 @@ function showCard() {
         <img src="${element.url}">
         <div>
             <h2>${element.name}</h2>
-            <p>${element.description}</p>
         </div>
         <h3>${element.size}</h3>
         <h3>${element.brand}</h3>
