@@ -21,12 +21,15 @@ function showCard() {
 
         component.innerHTML = `
         <img src="${element.url}">
-        <h2>${element.name}</h2>
-        <p>${element.description}</p>
+        <div>
+            <h2>${element.name}</h2>
+            <p>${element.description}</p>
+        </div>
         <h3>${element.size}</h3>
-        <h2>${element.price}</h2>
         <h3>${element.brand}</h3>
-        <h3>${element.category}</h3>
+        <h2>${element.price}</h2>
+        <button>Comprar</button>
+        <a href="#"><h3>${element.category}</h3></a>
         `
         productList.append(component)
     });
