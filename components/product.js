@@ -1,4 +1,10 @@
-let filter = 1;
+let filter = 0;
+
+function setFilter(num) {
+  filter = num;
+  renderCard();
+  console.log(filter);
+}
 
 async function getData() {
   const response = await fetch("https://apimocha.com/d1-products/products");
@@ -12,8 +18,14 @@ async function renderCard() {
 
   if (filter == 0) {
     showAll(products);
-  } else if ((filter = 1)) {
+  } else if (filter == 1) {
     filterData("Carnes", products);
+  } else if (filter == 2) {
+    filterData("Enlatados y Envasados", products);
+  } else if (filter == 3) {
+    filterData("Harinas y Pre-mezclas", products);
+  } else if (filter == 4) {
+    filterData("Pescados y Mariscos", products);
   }
 }
 
