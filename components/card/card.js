@@ -37,6 +37,3 @@ function cardFilter() {
     });
 }*/
 
-if(itemList !== undefined){
-    showCard();
-}
