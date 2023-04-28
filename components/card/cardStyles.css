@@ -96,4 +96,35 @@ d1_card button {
     d1_card button {
         font-size: 18px;
     }
+
+    .filter-buttons {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+      }
+      
+      .filter-btn {
+        background-color: #eee;
+        color: #333;
+        border: none;
+        padding: 10px 20px;
+        margin-right: 10px;
+        cursor: pointer;
+      }
+      
+      .filter-btn:hover {
+        background-color: #ccc;
+      }
+      
+      .active {
+        background-color: #333;
+        color: #fff;
+      }
+      
+      .products {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      
 }
