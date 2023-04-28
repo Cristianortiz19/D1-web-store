@@ -1,15 +1,4 @@
-class Card extends HTMLElement {
-
-    constructor() {
-        super();
-    }
-
-    static get observedAttributes() {
-        return ["name", ]
-    }
-}
-
-/*import "./card.js"
+import "./card.js"
 
 let productData = [];
 async function getProducts() {
@@ -27,7 +16,7 @@ const productList = document.getElementById("product-cards")
 
 function cardFilter() {
 
-}*/
+}
 
 /*function showCard() {
     itemList.forEach(element => {
