@@ -31,8 +31,11 @@ class detailProduct extends HTMLElement {
                 <h2>${this.name}</h2>
                 <h3>${this.brand}</h3>
                 <p>${this.description}</p>
-                <h2>${this.price}</h2>
-                <a href="#"><h3>Comprar</h3></a>
+                <h3>${this.price}</h3>
+                <div id="buttons">
+                    <a href="#"><h3>Comprar</h3></a>
+                    <a href="#"><h3>Añadir al carrito</h3></a>
+                </div>
                 <p>${this.category}</p>
             </div>
             
