@@ -48,9 +48,19 @@ function filterData(type, products) {
     let html = "";
     for (let i = 0; i < products.length; i++) {
       if (products[i].category == type) {
-        let productElement = `<div>
-          <h2>${products[i].name}</h2>
-        </div>`;
+        let productElement = `
+        <div style="border: 1px solid red; border-radius: 8px; width: 500px">
+            <img src="${products[i].url}" style="width: 100px">
+            <div>
+                <h2>${products[i].name}</h2>
+            </div>
+            <h3>${products[i].size}</h3>
+            <h3>${products[i].brand}</h3>
+            <h2>${products[i].price}</h2>
+            <button>Comprar</button>
+            <a href="#"><h3>${products[i].category}</h3></a>
+        </div>
+        `;
         html += productElement;
       }
     }

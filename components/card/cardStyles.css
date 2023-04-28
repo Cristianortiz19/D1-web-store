@@ -1,4 +1,4 @@
-#product-cards {
+.container {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -44,7 +44,7 @@ d1_card button {
 }
 
 @media (max-width: 768px) {
-    #product-cards {
+    .container {
         grid-template-columns: 1fr 1fr;
     }
     d1_card img {
@@ -61,7 +61,7 @@ d1_card button {
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
-    #product-cards {
+    .container {
         grid-template-columns: 1fr 1fr 1fr;
     }
     d1_card img {
@@ -78,7 +78,7 @@ d1_card button {
 }
 
 @media (min-width: 992px) and (max-width: 1550px) {
-    #product-cards {
+    .container {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
