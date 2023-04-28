@@ -5,6 +5,10 @@
     margin: 0;
 }
 
+.productCard{
+  border: 2px solid red;
+}
+
 header {
     background-color: #D70021;
     display: flex;
