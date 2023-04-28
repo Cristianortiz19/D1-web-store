@@ -1,6 +1,17 @@
-import "./card.js"
+class Card extends HTMLElement {
 
-let productData;
+    constructor() {
+        super();
+    }
+
+    static get observedAttributes() {
+        return ["name", ]
+    }
+}
+
+/*import "./card.js"
+
+let productData = [];
 async function getProducts() {
     
     await fetch("https://apimocha.com/d1-products/products")
@@ -13,9 +24,12 @@ async function getProducts() {
 
 const itemList = await getProducts();
 const productList = document.getElementById("product-cards")
-console.log(itemList)
 
-function showCard() {
+function cardFilter() {
+
+}*/
+
+/*function showCard() {
     itemList.forEach(element => {
         const component = document.createElement('d1_card');
 
@@ -32,7 +46,7 @@ function showCard() {
         `
         productList.append(component)
     });
-}
+}*/
 
 if(itemList !== undefined){
     showCard();
