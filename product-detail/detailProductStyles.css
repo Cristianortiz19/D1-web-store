@@ -3,14 +3,17 @@
     padding: 0px;
 }
 
-#buy-product {
+detail-product {
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 30px;
+    padding-top: 100px;
 }
 
-#buy-product img {
-    width: 300px;
+detail-product img {
+    width: 400px;
+    margin-right: 100px;
 }
 #buy-product div {
     width: 50%;
