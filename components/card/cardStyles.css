@@ -32,15 +32,19 @@ d1_card h3 {
     font-size: 18px;
 }
 
-d1_card button {
+d1_card a {
     background-color: rgb(255, 43, 28);
-    width: 40%;
-    height: 50px;
     color: white;
     border-style: none;
     border-radius: 10px;
     font-size: 20px;
-    font-weight: 800;
+    font-weight: 1000;
+    text-align: center;
+    text-decoration: none;
+}
+
+d1_card a h3 {
+    padding: 10px;
 }
 
 @media (max-width: 768px) {
@@ -55,7 +59,7 @@ d1_card button {
         font-size: 16px;
         padding: 5px 0px;
     }
-    d1_card button {
+    d1_card a {
         font-size: 14px;
     }
 }
@@ -72,7 +76,7 @@ d1_card button {
         font-size: 18px;
         padding: 10px 0px;
     }
-    d1_card button {
+    d1_card a {
         font-size: 16px;
     }
 }
@@ -93,7 +97,7 @@ d1_card button {
         width: 180px;
     }
 
-    d1_card button {
+    d1_card a {
         font-size: 18px;
     }
 

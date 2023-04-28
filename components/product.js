@@ -33,9 +33,22 @@ function showAll(products) {
   if (products?.length != 0) {
     let html = "";
     for (let i = 0; i < products.length; i++) {
-      let productElement = `<div>
-        <h2>${products[i].name}</h2>
-      </div>`;
+
+      let reference = products[i].name.replaceAll(" ", "-");
+      let detail = "/product-detail/index.html?id=" + reference;
+      let productElement = `
+      <d1_card>
+      <img src="${products[i].url}">
+      <div>
+          <h2>${products[i].name}</h2>
+      </div>
+      <h3>${products[i].size}</h3>
+      <h3>${products[i].brand}</h3>
+      <h2>${products[i].price}</h2>
+      <a href="${detail}"><h3>Comprar</h3></a>
+      <p>${products[i].category}</p>
+      </d1_card>
+      `;
       html += productElement;
     }
     let container = document.querySelector(".container");
@@ -47,19 +60,21 @@ function filterData(type, products) {
   if (products?.length != 0) {
     let html = "";
     for (let i = 0; i < products.length; i++) {
+      let reference = products[i].name.replaceAll(" ", "-");
+      let detail = "/product-detail/index.html?id=" + reference;
       if (products[i].category == type) {
         let productElement = `
-        <div style="border: 1px solid red; border-radius: 8px; width: 500px">
-            <img src="${products[i].url}" style="width: 100px">
+        <d1_card>
+            <img src="${products[i].url}">
             <div>
                 <h2>${products[i].name}</h2>
             </div>
             <h3>${products[i].size}</h3>
             <h3>${products[i].brand}</h3>
             <h2>${products[i].price}</h2>
-            <button>Comprar</button>
-            <a href="#"><h3>${products[i].category}</h3></a>
-        </div>
+            <a href="${detail}"><h3>Comprar</h3></a>
+            <p>${products[i].category}</p>
+        </d1_card>
         `;
         html += productElement;
       }

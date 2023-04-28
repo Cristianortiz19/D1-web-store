@@ -10,6 +10,10 @@ class detailProduct extends HTMLElement {
         this.size = this.getAttribute("size");
     }
 
+    connectedCallback(){
+        this.render();
+    }
+
     static get observedAttributes() {
         return ["name", "url", "description", "price", "category", "brand", "size"];
     }
@@ -21,7 +25,18 @@ class detailProduct extends HTMLElement {
 
     render() {
         this.innerHTML = `
-        
+
+            <figure><img src="${this.url}"> </figure>
+            <div>
+                <h2>${this.name}</h2>
+                <h3>${this.size}</h3>
+                <h3>${this.brand}</h3>
+                <p>${this.description}</p>
+                <h2>${this.price}</h2>
+                <a href="#"><h3>Comprar</h3></a>
+                <p>${this.category}</p>
+            </div>
+            
         `
     }
 }

@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#buy-product {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#buy-product img {
+    width: 300px;
+}
+#buy-product div {
+    width: 50%;
+    align-items: center;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 900;
+}
