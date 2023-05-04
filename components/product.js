@@ -1,10 +1,5 @@
-let filter = 0;
-
-function setFilter(num) {
-  filter = num;
-  renderCard();
-  console.log(filter);
-}
+let filter = "";
+let filterType = "";
 
 async function getData() {
   const response = await fetch("https://apimocha.com/d1-products/products");
@@ -16,16 +11,12 @@ async function getData() {
 async function renderCard() {
   let products = await getData();
 
-  if (filter == 0) {
+  if (filter === "" || filterType === "") {
     showAll(products);
-  } else if (filter == 1) {
-    filterData("Carnes", products);
-  } else if (filter == 2) {
-    filterData("Enlatados y Envasados", products);
-  } else if (filter == 3) {
-    filterData("Harinas y Pre-mezclas", products);
-  } else if (filter == 4) {
-    filterData("Pescados y Mariscos", products);
+    console.log(filter, filterType, "init");
+  } else {
+    filterData(filterType, filter, products);
+    console.log("filtered");
   }
 }
 
@@ -33,7 +24,6 @@ function showAll(products) {
   if (products?.length != 0) {
     let html = "";
     for (let i = 0; i < products.length; i++) {
-
       let reference = products[i].name.replaceAll(" ", "-");
       let detail = "/product-detail/index.html?id=" + reference;
       let productElement = `
@@ -56,13 +46,14 @@ function showAll(products) {
   }
 }
 
-function filterData(type, products) {
+function filterData(type, input, products) {
   if (products?.length != 0) {
     let html = "";
     for (let i = 0; i < products.length; i++) {
       let reference = products[i].name.replaceAll(" ", "-");
       let detail = "/product-detail/index.html?id=" + reference;
-      if (products[i].category == type) {
+
+      if (products[i][type] == input) {
         let productElement = `
         <d1_card>
             <img src="${products[i].url}">
@@ -82,6 +73,20 @@ function filterData(type, products) {
     let container = document.querySelector(".container");
     container.innerHTML = html;
   }
+}
+
+function checkType(type) {}
+
+function search() {
+  console.log("search!");
+  let input = document.getElementById("inputText").value;
+  let inputType = document.getElementById("filter").value;
+
+  filter = input;
+  filterType = inputType;
+  renderCard();
+
+  console.log(filter, filterType);
 }
 
 renderCard();

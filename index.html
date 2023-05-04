@@ -632,19 +632,30 @@
         </div>
       </section>
 
-      <div class="filter-buttons">
+      <!-- <div class="filter-buttons">
         <h4> Filtrar por: </h4>
         <button class="filter-btn" onclick="setFilter(0)">Todos</button>
         <button class="filter-btn" onclick="setFilter(1)">Carnes</button>
         <button class="filter-btn" onclick="setFilter(2)">Enlatados y Envasados</button>
         <button class="filter-btn" onclick="setFilter(3)">Harinas y Pre-mezclas</button>
         <button class="filter-btn" onclick="setFilter(4)">Pescados y Mariscos</button>
+      </div> -->
+
+      <div>
+        choose a filter:
+        <select name="filter" id="filter">
+          <option value="category">category</option>
+          <option value="brand">brand</option>
+          <option value="name">name</option>
+        </select>
+        <input type="text" id="inputText" />
+        <button onclick="search()">Search</button>
       </div>
-      
+
       <div class="products">
         <!-- Aquí van los productos que se quieren filtrar -->
       </div>
-      
+
       <section class="container"></section>
       <script src="./components/product.js"></script>
     </main>
