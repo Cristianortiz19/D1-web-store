@@ -1,0 +1,199 @@
+[
+    {
+        "name": "Base para salsa bechamel/gulash",
+        "url": ["https://ik.imagekit.io/instaleap/d1/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12002681.png",
+                "https://s.cornershopapp.com/product-images/1475582.jpg?versionId=8rUFXvisujPBoFGGAAqrUzVXmwLuefMb",
+                "https://images.aws.nestle.recipes/original/ba05ff2d6a342596cbe563429ec73f33_gulash_1.jpeg"],
+        "description": "Es una mezcla en polvo que se utiliza como ingrediente principal para preparar salsas cremosas y espesas como la salsa Bechamel o el Gulash. Se compone de harina, grasa vegetal, leche en polvo y especias.",
+        "price": "$2.090",
+        "category": "Caldos, Sopas y Bases",
+        "brand": "Rico",
+        "size": "45 g"
+    },
+    {
+        "name": "Arepa amarilla masmaí",
+        "url": ["https://ik.imagekit.io/instaleap/d1/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12000137.png",
+                "https://doñarepa.com/wp-content/uploads/2020/05/AREPA-TELA.jpg",
+                "https://1.bp.blogspot.com/-5PlQK4yKTmY/XQcM9efRJrI/AAAAAAAAKVA/C816RFFw8U8g-mGdQynZjLG7TnDcT1auACLcBGAs/s1600/arepas-enriquecidas.jpg"],
+        "description": "Es una mezcla en polvo que se utiliza como ingrediente principal para preparar salsas cremosas y espesas como la salsa Bechamel o el Gulash. Se compone de harina, grasa vegetal, leche en polvo y especias.es un producto pre-cocido hecho de harina de maíz amarillo. No requiere de preparación previa, ya que está lista para cocinar. Simplemente se hace una masa con agua y se forman las arepas que se cocinan a la parrilla o sartén hasta que estén doradas. Es un alimento básico en la dieta de muchos países de América Latina.",
+        "price": "$1.450",
+        "category": "Arepas",
+        "brand": "Masmaí",
+        "size": "5 UND - 400 g"
+    },
+    {
+        "name": "Butifarra viande",
+        "url": ["https://ik.imagekit.io/instaleap/d1/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12002503.png",
+                "https://www.cocina-colombiana.com/base/stock/Recipe/296-image/296-image_web.jpg.webp",
+                "https://cunit.com.co/wp-content/uploads/2017/09/desayuno-con-butifarra-cunit.jpg"],
+        "description": "Embutido fresco de origen español hecho con carne de cerdo y especias. Se caracteriza por tener un sabor suave y una textura firme. Es ideal para asar a la parrilla o cocinar a la plancha, y se puede servir como parte de una comida o como un aperitivo. La butifarra es un alimento popular en la cocina mediterránea.",
+        "price": "$6.790",
+        "category": "Carnes",
+        "brand": "Viande",
+        "size": "500 g"
+    },
+    {
+        "name": "Choco krispis Kellogs",
+        "url": ["https://ik.imagekit.io/instaleap/d1/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12002686.png",
+                "https://www.supermercadosantamaria.com/documents/10180/10504/70403_G.jpg",
+                "https://pinero.storage.googleapis.com/wp-content/uploads/2019/04/26025058/choco.jpg"],
+        "description": "Cereal de desayuno hecho de arroz inflado con sabor a chocolate. Son crujientes y dulces, y se pueden disfrutar con leche fría o caliente. Los Choco Krispis son una opción popular para el desayuno y también pueden ser un snack delicioso en cualquier momento del día.",
+        "price": "$5.800",
+        "category": "Cereales",
+        "brand": "Kellogs",
+        "size": "200 g"
+    },
+    {
+        "name": "Barra de chocolate Snickers",
+        "url": ["https://ik.imagekit.io/instaleap/d1/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12001295.png?tr=w-449",
+                "https://http2.mlstatic.com/D_NQ_NP_889466-MCO47805284696_102021-O.jpg",
+                "https://www.snickers.com/sites/g/files/fnmzdf616/files/migrate-product-files/obb8jupzezxyr8idylsi.png"],
+        "description": "Cereal de desayuno hecho de arroz inflado con sabor a chocolate. Son crujientes y dulces, y se pueden disfrutar con leche fría o caliente. Los Choco Krispis son una opción popular para el desayuno y también pueden ser un snack delicioso en cualquier momento del día.",
+        "price": "$3.990",
+        "category": "Dulcería",
+        "brand": "Snickers",
+        "size": "53 g"
+    },
+    {
+        "name": "Ensalada campesina",
+        "url": ["https://ik.imagekit.io/instaleap/d1/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12000396.png",
+                "https://lucerovilchezcocina.com/wp-content/uploads/2016/09/ENSALADA-CAMPESINA-CON-JAMONADA-ABURR%C3%81.jpg",
+                "https://d1uz88p17r663j.cloudfront.net/original/dddaf328c4d971e0dbf859e324aaeef4_ENSALADA_CAMPESINA_CON_ADEREZO_DE_HIERBAS_.jpg"],
+        "description": "Es una ensalada premezclada hecha con una variedad de lechugas frescas, tomates cherry, cebolla roja y crutones. Está lista para ser consumida y viene con un aderezo de vinagreta balsámica envasado por separado. La Ensalada Campesina Cooltivo es una opción conveniente y saludable para una comida rápida o como acompañamiento para una cena.",
+        "price": "$3,690",
+        "category": "Enlatados y Envasados",
+        "brand": "Cooltivo",
+        "size": "190 g"
+    },
+    {
+        "name": "Galleta 2 Tacos Ducales Noel",
+        "url": ["https://ik.imagekit.io/instaleap/d1/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12000096.png",
+                "https://ducales.com.co/wp-content/uploads/2021/03/galleta-tradicional-small-new.png",
+                "https://cdn11.bigcommerce.com/s-iaghsg5nn9/images/stencil/1280x1280/products/903/1147/GALLETA-DUCALES-NOEL__88535.1596250587.jpg?c=1"],
+        "description": "Galleta de mantequilla de forma redonda y plana, con una textura delicada y crujiente. Son ideales para acompañar bebidas calientes o frías, y también se pueden disfrutar solas como un snack. Las galletas Ducales son un clásico de la repostería y son muy populares en América Latina.",
+        "price": "$3,690",
+        "category": "Enlatados y Envasados",
+        "brand": "Cooltivo",
+        "size": "190 g"
+    },
+    {
+        "name": "Arroz Diana",
+        "url": ["https://ik.imagekit.io/instaleap/d1/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12000096.png",
+                "https://grupodiana.co/wp-content/uploads/2020/02/historia-Diana-1.jpg",
+                "https://alianza-zapatoca.s3.amazonaws.com/prod/images/products/optimized/112918-01__1000.jpg"],
+        "description": "Arroz blanco de grano largo y fino. Es rico en nutrientes y se caracteriza por su textura suave y sabor delicado. El arroz Diana es ideal para acompañar platos principales, como carnes, aves, pescados y vegetales, y también puede ser la base para preparar platillos como arroz con pollo o paella. Es un alimento básico en la dieta de muchas culturas alrededor del mundo.",
+        "price": "$4.390",
+        "category": "Granos, Azúcar y Panela",
+        "brand": "Diana",
+        "size": "1000 g"
+    },
+    {
+        "name": "Harina de Maíz",
+        "url": ["https://ik.imagekit.io/instaleap/d1/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12005122.png",
+                ""],
+        "description": "Es una harina pre-cocida hecha de maíz blanco. Es fácil de preparar y no contiene gluten. Para hacer arepas, simplemente se mezcla la harina con agua y se forma una masa que se aplanará en forma de disco y se cocinará en una parrilla o sartén hasta que esté dorada y crujiente. La harina de maíz Arepasán es un alimento básico en la dieta de muchos países de América Latina.",
+        "price": "$4.600",
+        "category": "Harinas y Pre-mezclas",
+        "brand": "Arepasán",
+        "size": "1000 g"
+    },
+    {
+        "name": "Sol Naciente",
+        "url": ["https://ik.imagekit.io/instaleap/d1/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12005122.png"],
+        "description": "Son huevos frescos de gallina de corral. Se caracterizan por su yema amarilla y clara firme y transparente. Los huevos Sol Naciente son una opción saludable y nutritiva para el desayuno, almuerzo o cena, y son una excelente fuente de proteínas y vitaminas.",
+        "price": "$7.650",
+        "category": "Harinas y Pre-mezclas",
+        "brand": "Sol naciente",
+        "size": "12 u"
+    },
+    {
+        "name": "Aceite de Oliva Extra Virgen",
+        "url": ["https://riovalle.co/wp-content/uploads/2021/01/Aceite-de-Oliva-Extra-Virgen-x-500.png"],
+        "description": "Aceite de oliva de alta calidad, prensado en frío y sin aditivos químicos. Perfecto para cocinar y aderezar ensaladas.",
+        "price": "$21.000",
+        "category": "Aceites y Vinagres",
+        "brand": "RioValle",
+        "size": "500 ml"
+    },
+    {
+        "name": "Leche descremada",
+        "url": ["https://www.conaprole.uy/wp-content/uploads/2019/09/leche-descremada.png"],
+        "description": "Leche descremada sin lactosa, rica en calcio y proteínas. Perfecta para personas intolerantes a la lactosa o que desean cuidar su salud.",
+        "price": "$3.000",
+        "category": "Lácteos y Huevos",
+        "brand": "Conaprole",
+        "size": "1 L"
+    },
+    {
+        "name": "Cereal integral con frutas",
+        "url": ["https://www.nestle-cereals.com/do/sites/g/files/qirczx976/files/styles/1_1_768px_width/public/2023-02/1_0.png?itok=Nc1YFbnC"],
+        "description": "Cereal integral con frutas secas y sin aditivos artificiales. Rico en fibra y vitaminas. Ideal para un desayuno saludable.",
+        "price": "$9.300",
+        "category": "Cereales y Granolas",
+        "brand": "Nestlé",
+        "size": "500 g"
+    },
+    {
+        "name": "Salmón fresco",
+        "url": ["https://cdn.shopify.com/s/files/1/0046/1592/9946/products/latasalmonperro-min_1024x1024_2x_529c5838-ad7d-4234-81d5-e073a3b87847_1080x.webp?v=1666881698"],
+        "description": "Filete de salmón fresco, rico en ácidos grasos omega-3 y proteínas. Ideal para preparar al horno o a la parrilla.",
+        "price": "$12.990",
+        "category": "Pescados y Mariscos",
+        "brand": "Wild Balance",
+        "size": "200 g"
+    },
+    {
+        "name": "Arroz integral",
+        "url": ["https://www.lacamara.es/images/arroces/arroz-integral.png"],
+        "description": "Arroz integral sin blanquear, rico en fibra y nutrientes esenciales. Perfecto para acompañar cualquier plato.",
+        "price": "$2.990",
+        "category": "Granos y Legumbres",
+        "brand": "Montsia",
+        "size": "1 kg"
+    },
+    {
+        "name": "Galletas integrales",
+        "url": ["https://d6squ07ztsb0a.cloudfront.net/images/integral-500g.png"],
+        "description": "Galletas integrales sin azúcares añadidos y con alto contenido en fibra. Perfectas para picar entre horas.",
+        "price": "$1.990",
+        "category": "Golosinas y Snacks",
+        "brand": "Portezuelo",
+        "size": "200 g"
+    },
+    {
+        "name": "Arroz blanco",
+        "url": ["https://static.wixstatic.com/media/c993bb_35b593dad63749ac960e163ed98df212~mv2.png/v1/fill/w_497,h_498,al_c,usm_0.66_1.00_0.01/c993bb_35b593dad63749ac960e163ed98df212~mv2.png"],
+        "description": "El arroz blanco es un alimento básico en la cocina de todo el mundo. Es un cereal que se puede preparar de muchas formas diferentes y es ideal para acompañar platos de carne, pescado o verduras.",
+        "price": "$5.000",
+        "category": "Granos y Cereales",
+        "brand": "Arroz Carolina",
+        "size": "1 kg"
+      },
+      {
+        "name": "Atún en aceite",
+        "url": ["https://isabelcolombia.com.co/isabel2018/wp-content/uploads/2018/03/Lata-160-Dark.png"],
+        "description": "El atún en aceite es un alimento muy versátil que se puede utilizar en ensaladas, pastas y sándwiches. Es rico en proteínas y grasas saludables y tiene un sabor suave y delicado.",
+        "price": "$6.000",
+        "category": "Pescados y Mariscos",
+        "brand": "Atún Isabel",
+        "size": "170 g"
+      },
+      {
+        "name": "Queso fresco",
+        "url": ["https://www.goya.com/media/7311/queso-fresco.png?width=470"],
+        "description": "El queso fresco es un tipo de queso suave y cremoso que se utiliza en ensaladas, sándwiches y como ingrediente para preparaciones de pastas y pizzas. Es rico en proteínas y calcio.",
+        "price": "$12.000",
+        "category": "Lácteos y Huevos",
+        "brand": "Goya",
+        "size": "283 g"
+      },
+      {
+        "name": "Jugo de naranja",
+        "url": ["https://www.pasosonline.com.ar/wp-content/uploads/2019/12/image-removebg-preview-61.png"],
+        "description": "El jugo de naranja es una bebida refrescante y saludable que se puede consumir en cualquier momento del día. Es rico en vitamina C y otros nutrientes que benefician la salud.",
+        "price": "$7.000",
+        "category": "Bebidas",
+        "brand": "Citric",
+        "size": "1 litro"
+      }
+]
