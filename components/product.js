@@ -28,7 +28,7 @@ function showAll(products) {
       let detail = "/product-detail/index.html?id=" + reference;
       let productElement = `
       <d1_card>
-      <img src="${products[i].url}">
+      <img src="${products[i].url[0]}">
       <div>
           <h2>${products[i].name}</h2>
       </div>
@@ -56,7 +56,7 @@ function filterData(type, input, products) {
       if (products[i][type] == input) {
         let productElement = `
         <d1_card>
-            <img src="${products[i].url}">
+            <img src="${products[i].url[0]}">
             <div>
                 <h2>${products[i].name}</h2>
             </div>
