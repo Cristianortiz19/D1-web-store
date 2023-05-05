@@ -4,7 +4,6 @@ let filterType = "";
 async function getData() {
   const response = await fetch("https://apimocha.com/d1-products/products");
   let productData = await response.json();
-  console.log(productData);
   return productData;
 }
 

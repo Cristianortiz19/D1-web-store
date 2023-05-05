@@ -12,6 +12,11 @@ detail-product {
     padding-top: 150px;
 }
 
+.objectfitcover > .detailed img {
+    width: 400px;
+    height: 400px;
+}
+
 detail-product img {
     width: 400px;
     margin-right: 100px;
