@@ -8,7 +8,9 @@
         "price": "$2.090",
         "category": "Caldos, Sopas y Bases",
         "brand": "Rico",
-        "size": "45 g"
+        "size": "45 g",
+        "discount": true
+        
     },
     {
         "name": "Arepa amarilla masmaí",
@@ -19,7 +21,8 @@
         "price": "$1.450",
         "category": "Arepas",
         "brand": "Masmaí",
-        "size": "5 UND - 400 g"
+        "size": "5 UND - 400 g",
+        "discount": false
     },
     {
         "name": "Butifarra viande",
@@ -30,7 +33,8 @@
         "price": "$6.790",
         "category": "Carnes",
         "brand": "Viande",
-        "size": "500 g"
+        "size": "500 g",
+        "discount": true
     },
     {
         "name": "Choco krispis Kellogs",
@@ -41,7 +45,8 @@
         "price": "$5.800",
         "category": "Cereales",
         "brand": "Kellogs",
-        "size": "200 g"
+        "size": "200 g",
+        "discount": false
     },
     {
         "name": "Barra de chocolate Snickers",
@@ -52,7 +57,8 @@
         "price": "$3.990",
         "category": "Dulcería",
         "brand": "Snickers",
-        "size": "53 g"
+        "size": "53 g",
+        "discount": false
     },
     {
         "name": "Ensalada campesina",
@@ -63,7 +69,8 @@
         "price": "$3,690",
         "category": "Enlatados y Envasados",
         "brand": "Cooltivo",
-        "size": "190 g"
+        "size": "190 g",
+        "discount": false
     },
     {
         "name": "Galleta 2 Tacos Ducales Noel",
@@ -74,7 +81,8 @@
         "price": "$3,690",
         "category": "Enlatados y Envasados",
         "brand": "Cooltivo",
-        "size": "190 g"
+        "size": "190 g",
+        "discount": false
     },
     {
         "name": "Arroz Diana",
@@ -85,7 +93,8 @@
         "price": "$4.390",
         "category": "Granos, Azúcar y Panela",
         "brand": "Diana",
-        "size": "1000 g"
+        "size": "1000 g",
+        "discount": true
     },
     {
         "name": "Harina de Maíz",
@@ -96,7 +105,8 @@
         "price": "$4.600",
         "category": "Harinas y Pre-mezclas",
         "brand": "Arepasán",
-        "size": "1000 g"
+        "size": "1000 g",
+        "discount": false
     },
     {
         "name": "Huevo tipo A",
@@ -107,7 +117,9 @@
         "price": "$7.650",
         "category": "Harinas y Pre-mezclas",
         "brand": "Sol naciente",
-        "size": "12 u"
+        "size": "12 u",
+        "discount": true
+
     },
     {
         "name": "Aceite de Oliva Extra Virgen",
@@ -118,7 +130,8 @@
         "price": "$21.000",
         "category": "Aceites y Vinagres",
         "brand": "RioValle",
-        "size": "500 ml"
+        "size": "500 ml",
+        "discount": true
     },
     {
         "name": "Leche descremada",
@@ -129,7 +142,8 @@
         "price": "$3.000",
         "category": "Lácteos y Huevos",
         "brand": "Conaprole",
-        "size": "1 L"
+        "size": "1 L",
+        "discount": false
     },
     {
         "name": "Cereal integral con frutas",
@@ -140,7 +154,8 @@
         "price": "$9.300",
         "category": "Cereales y Granolas",
         "brand": "Nestlé",
-        "size": "500 g"
+        "size": "500 g",
+        "discount": true
     },
     {
         "name": "Salmón fresco",
@@ -151,7 +166,8 @@
         "price": "$12.990",
         "category": "Pescados y Mariscos",
         "brand": "Wild Balance",
-        "size": "200 g"
+        "size": "200 g",
+        "discount": false
     },
     {
         "name": "Arroz integral",
@@ -162,7 +178,8 @@
         "price": "$2.990",
         "category": "Granos y Legumbres",
         "brand": "Montsia",
-        "size": "1 kg"
+        "size": "1 kg",
+        "discount": true
     },
     {
         "name": "Galletas integrales",
@@ -173,7 +190,8 @@
         "price": "$1.990",
         "category": "Golosinas y Snacks",
         "brand": "Portezuelo",
-        "size": "200 g"
+        "size": "200 g",
+        "discount": false
     },
     {
         "name": "Arroz blanco",
@@ -184,7 +202,8 @@
         "price": "$5.000",
         "category": "Granos y Cereales",
         "brand": "Arroz Carolina",
-        "size": "1 kg"
+        "size": "1 kg",
+        "discount": false
       },
       {
         "name": "Atún en aceite",
@@ -195,7 +214,8 @@
         "price": "$6.000",
         "category": "Pescados y Mariscos",
         "brand": "Atún Isabel",
-        "size": "170 g"
+        "size": "170 g",
+        "discount": false
       },
       {
         "name": "Queso fresco",
@@ -206,7 +226,8 @@
         "price": "$12.000",
         "category": "Lácteos y Huevos",
         "brand": "Goya",
-        "size": "283 g"
+        "size": "283 g",
+        "discount": false
       },
       {
         "name": "Jugo de naranja",
@@ -217,6 +238,7 @@
         "price": "$7.000",
         "category": "Bebidas",
         "brand": "Citric",
-        "size": "1 litro"
+        "size": "1 litro",
+        "discount": false
       }
 ]
