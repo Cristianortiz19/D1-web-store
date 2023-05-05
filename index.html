@@ -642,14 +642,16 @@
       </div> -->
 
       <div class="divfilter">
-        Filtrar por:
+        Filtrar por: 
         <select name="filter" id="filter">
+          <option value="all">Todos</option>
           <option value="category">Categoría</option>
           <option value="brand">Marca</option>
           <option value="name">Nombre</option>
+          <option value="discount">Descuentos</option>
         </select>
-        <input type="text" id="inputText" />
-        <button onclick="search()">Buscar</button>
+        <input type="text" id="inputText" placeholder="Escriba aquí" />
+        <button onclick="search()" style="border-radius: 5px;">Buscar</button>
       </div>
 
       <div class="products">

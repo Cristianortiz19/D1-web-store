@@ -11,12 +11,14 @@ async function getData() {
 async function renderCard() {
   let products = await getData();
 
-  if (filter === "" || filterType === "") {
-    showAll(products);
-    console.log(filter, filterType, "init");
+  if (filter === "" || filterType === "" || filterType === "all") {
+    if(filterType === 'discount'){
+      filterData(filterType, true, products);
+    } else {
+      showAll(products);
+    }
   } else {
     filterData(filterType, filter, products);
-    console.log("filtered");
   }
 }
 
